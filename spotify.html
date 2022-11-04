@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="spotify.css">
+    <script src="https://kit.fontawesome.com/b54c3251f8.js" crossorigin="anonymous"></script> 
+    <title>Sotify</title>
+</head>
+<body>
+    <!-- navbar -->
+    <nav>
+        <ul>
+            <li id="brand"><img src="logo.png" alt="logo" id="logo"><h1>Sotify</h1></li>
+            <li class="li">Home</li>
+            <li class="li">About</li>
+        </ul>
+    </nav>
+    <i class="fa-solid fa-repeat-1"></i>
+    <div id="playList">
+        <h2 id="playListh1">Best of NCS - No Copyright Sounds</h2>
+        <div id="songsList">
+            <div class="list">
+                <img class="cover" src="Spotify Clone/covers/1.jpg" class="items">
+                <span span id="nm"> [NCS Release]</span>
+                <span class="spn"><span class="ispn">4:50</span>
+                <i class="fa-sharp fa-solid fa-circle-play libutt" id="p1"></i>
+                <i class="fa-sharp  fa-solid fa-pause  libutt libutt1" id="u1"></i>
+                </span>
+            </div>
+            <div class="list">
+                <img class="cover" src="Spotify Clone/covers/2.jpg" class="items"><span id="nm"> Cielo - Huma-Huma </span> 
+                <span class="spn"><span class="ispn">4:50</span>
+                <i class="fa-sharp fa-solid fa-circle-play libutt" id="p2"></i>
+                <i class="fa-sharp  fa-solid fa-pause libutt libutt1 " id="u2"></i>
+                </span>
+            </div>
+            <div class="list">
+                <img class="cover" src="Spotify Clone/covers/3.jpg" class="items"><span id="nm"> KEV - Invincible [NCS Release]-320k</span>
+                <span class="spn"><span class="ispn">4:50
+                </span><i class="fa-sharp fa-solid fa-circle-play libutt" id="p3"></i>
+                    <i class="fa-sharp  fa-solid fa-pause libutt libutt1" id="u3"></i>
+                </span>
+            </div>
+            <div class="list">
+                <img class="cover" src="Spotify Clone/covers/4.jpg" class="items"><span id="nm">Different-Heavens & EH!DE - MY Heart[NCS Release]</span>
+                <span class="spn"><span class="ispn">4:50</span>
+                <i class="fa-sharp fa-solid fa-circle-play libutt " id="p4"></i>
+                <i class="fa-sharp  fa-solid fa-pause libutt libutt1" id="u4"></i>
+                </span>
+            </div>
+            <div class="list">
+                <img class="cover" src="Spotify Clone/covers/5.jpg" class="items"><span id="nm">Janji-Heroes-Tonight-feat-Johnning-NCS-Release</span>
+                <span class="spn"><span class="ispn">4:50</span><i class="fa-sharp fa-solid fa-circle-play libutt" id="p5"></i><i class="fa-sharp  fa-solid fa-pause libutt libutt1"id="u5" ></i></span>
+            </div>
+            <div class="list">
+                <img class="cover" src="Spotify Clone/covers/6.jpg"  class="items"><span id="nm"> Cielo - Huma-Huma </span>
+                <span class="spn"><span class="ispn">4:50</span><i class="fa-sharp fa-solid fa-circle-play libutt" id="p6"></i><i class="fa-sharp  fa-solid fa-pause libutt libutt1" id="u6"></i></span>
+            </div>
+            <div class="list">
+                <img class="cover" src="Spotify Clone/covers/7.jpg" class="items"><span id="nm">Janji-Heroes-Tonight-feat-Johnning-NCS-Release</span>
+                <span class="spn"><span class="ispn">4:50</span><i class="fa-sharp fa-solid fa-circle-play  libutt" id="p7"></i><i class="fa-sharp  fa-solid fa-pause libutt libutt1" id="u7"></i></span>
+            </div>
+            <div class="list">
+                <img class="cover" src="Spotify Clone/covers/8.jpg" class="items"><span id="nm">Different-Heavens & EH!DE - MY Heart[NCS Release]</span>
+                <span class="spn"><span class="ispn">4:50</span><i class="fa-sharp fa-solid fa-circle-play libutt" id="p8"></i><i class="fa-sharp  fa-solid fa-pause libutt libutt1" id="u8"> </i></span>
+            </div>
+            <div class="list">
+                <img class="cover" src="Spotify Clone/covers/9.jpg" class="items"><span id="nm"> Cielo - Huma-Huma </span>
+                <span class="spn"><span class="ispn">4:50</span><i class="fa-sharp fa-solid fa-circle-play libutt" id="p9"></i><i class="fa-sharp  fa-solid fa-pause libutt libutt1" id="u9"></i></span>
+            </div>
+            <div class="list">
+                <img class="cover" src="Spotify Clone/covers/10.jpg" class="items"><span id="nm">KEV - Invincible [NCS Release]-320k</span>
+                <span class="spn"><span class="ispn">4:50</span><i class="fa-sharp fa-solid fa-circle-play  libutt" id="p10"></i><i class="fa-sharp  fa-solid fa-pause libutt libutt1" id="u10"></i></span>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" max="100" > 
+        <span id="stp">0:00</span>
+        <div class="playbackdiv"> 
+            <span>
+              <i class="fa-sharp fa-2x fa-solid fa-backward-step butt" id="left"></i>
+            </span>
+            <span class="playpause">
+              <span id="visi">
+                <i class="fa-sharp fa-2x fa-solid fa-circle-play butt"></i>
+              </span>
+              <span id="v1">
+                <i class="fa-sharp fa-2x fa-solid fa-pause butt"></i>
+              </span>
+            </span>
+            <span>
+               <i class="fa-sharp fa-2x fa-solid fa-forward-step butt" id="right"></i>
+            </span>
+            <span>
+                <i id="rst" class="fa-sharp fa-solid fa-rotate-right"></i>
+            </span>
+        </div>
+        <span id="rn">0:00</span>
+        <span id="song"><img src="Spotify Clone/playing.gif" id="gif"><p id="ttl">[NCS Release]</p></span>
+    </div>
+    <script src="spotify.js"></script>
+</body>
+</html>

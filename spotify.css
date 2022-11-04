@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/* navbar */
+ul{
+    display: flex;
+    background-color: black;
+    align-items: center;
+}
+.li{
+    list-style: none;
+    color: antiquewhite;
+    padding: 1.4rem;
+    cursor: pointer;
+}
+#logo{
+    width: 3rem;
+    height: 3rem;
+    margin-left: .1rem; 
+    padding: .3rem;
+}
+#brand{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    color: antiquewhite;
+    padding: .3rem;
+}
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* playlist */
+#playList{
+    padding: 1rem;
+    margin: 23px auto;
+    background-image: url('Spotify Clone/bg.jpg');  
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 74%;   
+    border: 3px solid rebeccapurple;
+    border-radius: .8rem;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1vw;
+    min-height: 72vh;
+}
+#playListh1{
+    color: white;   
+}
+#nm{
+    margin-right: 7vw;
+    width: 100vw;
+    text-align: center;
+}
+#songsList{
+    color: white;
+    margin-top: 3rem;
+    text-align: center;
+}
+.cover{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 1rem;
+}
+.items,img{
+    margin-left: .4rem;
+    margin-right: 15px;
+}
+.list{
+    text-align: center;
+    display: flex;
+    width: 50%;
+    align-items: center;
+    background-color: rgb(254, 252, 252);
+    color: rgb(76, 21, 21);
+    border-radius: 1rem;
+    margin: .6rem;
+    padding: .1rem; 
+}
+.spn{
+    position: absolute;
+    right: 49.1%;   
+    padding: 10px;
+}
+.ispn{
+    padding: 6px;
+}
+/* Bottom */
+.bottom{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    justify-content: center;
+    background-color: black;
+    height: 6rem;   
+    width: 100%;
+}
+.butt{
+    cursor: pointer;
+    color: aliceblue;
+    padding: 1rem;
+    margin-top: 1rem;
+    font-size: 2vw;
+}
+#myProgressBar{
+    width: 180vw;
+    cursor: pointer;
+    margin: auto 180px 0px;
+    margin-bottom: 9vh;
+    position: relative;
+    z-index: 4;
+    margin-right: 80px;
+    color: pink
+}
+.libutt{
+    cursor: pointer;
+}
+#song{
+    display: flex;
+    color: white;
+    position: absolute;
+    left: 2.4vw;
+    margin-top: 5vh;
+}
+#gif{
+    width: 50px;
+}
+#visi{
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+}
+#v1{
+    margin-left: 4px;
+}
+.visibility{
+    visibility: hidden;
+}
+.libutt1{
+    position: absolute;
+    z-index: 1;
+    left: 72%;
+}
+#gif{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+.playbackdiv{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+    z-index: -8;
+    right: 46vw;   
+}
+.playpause{
+    display: flex;
+}
+#ttl{
+    font-size: 1vw;
+}
+#rn,#stp{
+    color: rgb(208, 203, 194);
+}
+#rn{
+    position: relative;
+    right: 14.8vw;
+    bottom: 3.6vh;
+}
+#stp{
+    position: relative;
+    right: 78vw;    
+    bottom: 3.5vh;
+}
+#rst{
+    color: white;
+    font-size: 1.7vw;
+    margin-top: 2.3vh;
+    cursor: pointer;
+}
